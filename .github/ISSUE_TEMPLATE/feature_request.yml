@@ -1,0 +1,21 @@
+name: 🚀 Feature request
+description: Suggest an idea for this project 💡
+title: "Feature: "
+labels: [👀 needs triage, 💡 feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    attributes:
+      label: Suggested feature
+      description: Describe the feature you'd like and why it will be a great addition to the project.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/OpenSource-Communities/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
